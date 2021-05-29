@@ -1,25 +1,22 @@
-import React from 'react';
 import classNames from 'classnames';
+import React from 'react';
 import { SectionSplitProps } from '../../utils/SectionProps';
 import Button from '../elements/Button';
-import Image from '../elements/Image';
 
 const propTypes = {
-  ...SectionSplitProps.types
-}
+  ...SectionSplitProps.types,
+};
 
 const defaultProps = {
-  ...SectionSplitProps.defaults
-}
+  ...SectionSplitProps.defaults,
+};
 
 class HeroSplit extends React.Component {
-
   render() {
-
     const {
       className,
       topOuterDivider,
-      bottomOuterDivider,      
+      bottomOuterDivider,
       topDivider,
       bottomDivider,
       hasBgColor,
@@ -54,34 +51,41 @@ class HeroSplit extends React.Component {
     );
 
     return (
-      <section
-        {...props}
-        className={outerClasses}
-      >
-        <div className="container">
+      <section {...props} className={outerClasses}>
+        <div className='container'>
           <div className={innerClasses}>
             <div className={splitClasses}>
-              <div className="split-item">
-                <div className="hero-content split-item-content center-content-mobile">
-                  <h1 className="mt-0 mb-16 reveal-from-left">
+              <div className='split-item'>
+                <div className='hero-content split-item-content center-content-mobile'>
+                  <h1 className='mt-0 mb-16 reveal-from-left'>
                     Landing template for startups
                   </h1>
-                  <p className="mt-0 mb-32 reveal-from-left" data-reveal-delay="200">
-                    Our landing page template works on all devices, so you only have to set it up once, and get beautiful results forever.
+                  <p
+                    className='mt-0 mb-32 reveal-from-left'
+                    data-reveal-delay='200'
+                  >
+                    Our landing page template works on all devices, so you only
+                    have to set it up once, and get beautiful results forever.
                   </p>
-                  <div className="reveal-from-left" data-reveal-delay="400">
-                    <Button tag="a" color="primary" href="https://cruip.com/" wideMobile>
+                  <div className='reveal-from-left' data-reveal-delay='400'>
+                    <Button
+                      tag='a'
+                      color='primary'
+                      href='https://cruip.com/'
+                      wideMobile
+                    >
                       Pricing and plans
                     </Button>
                   </div>
                 </div>
-                <div className="hero-figure is-3d split-item-image illustration-element-01 reveal-from-right">
-                  <Image
-                    className="has-shadow"
-                    src={require('./../../assets/images/hero-image.svg')}
-                    alt="Hero"
+                <div className='hero-figure is-3d split-item-image illustration-element-01 reveal-from-right'>
+                  <img
+                    className='has-shadow'
+                    src='/images/hero-image.svg'
+                    alt='Hero'
                     width={528}
-                    height={396} />
+                    height={396}
+                  />
                 </div>
               </div>
             </div>

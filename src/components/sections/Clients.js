@@ -1,18 +1,17 @@
-import React from 'react';
 import classNames from 'classnames';
+import React from 'react';
 import { SectionProps } from '../../utils/SectionProps';
 import Image from '../elements/Image';
 
 const propTypes = {
-  ...SectionProps.types
-}
+  ...SectionProps.types,
+};
 
 const defaultProps = {
-  ...SectionProps.defaults
-}
+  ...SectionProps.defaults,
+};
 
 class Clients extends React.Component {
-
   render() {
     const {
       className,
@@ -41,49 +40,49 @@ class Clients extends React.Component {
     );
 
     return (
-      <section
-        {...props}
-        className={outerClasses}
-      >
-        <div className="container">
-          <div
-            className={innerClasses}
-          >
-            <ul className="list-reset">
-              <li className="reveal-scale-up" data-reveal-delay="400">
+      <section {...props} className={outerClasses}>
+        <div className='container'>
+          <div className={innerClasses}>
+            <ul className='list-reset'>
+              <li className='reveal-scale-up' data-reveal-delay='400'>
                 <Image
-                  src={require('./../../assets/images/clients-01.svg')}
-                  alt="Client 01"
+                  src='/images/clients-01.svg'
+                  alt='Client 01'
                   width={124}
-                  height={24} />
+                  height={24}
+                />
               </li>
-              <li className="reveal-scale-up" data-reveal-delay="200">
+              <li className='reveal-scale-up' data-reveal-delay='200'>
                 <Image
-                  src={require('./../../assets/images/clients-02.svg')}
-                  alt="Client 02"
+                  src='/images/clients-02.svg'
+                  alt='Client 02'
                   width={83}
-                  height={30} />
+                  height={30}
+                />
               </li>
-              <li className="reveal-scale-up">
+              <li className='reveal-scale-up'>
                 <Image
-                  src={require('./../../assets/images/clients-03.svg')}
-                  alt="Client 03"
+                  src='/images/clients-03.svg'
+                  alt='Client 03'
                   width={125}
-                  height={39} />
+                  height={39}
+                />
               </li>
-              <li className="reveal-scale-up" data-reveal-delay="200">
+              <li className='reveal-scale-up' data-reveal-delay='200'>
                 <Image
-                  src={require('./../../assets/images/clients-04.svg')}
-                  alt="Client 04"
+                  src='/images/clients-04.svg'
+                  alt='Client 04'
                   width={150}
-                  height={31} />
+                  height={31}
+                />
               </li>
-              <li className="reveal-scale-up" data-reveal-delay="400">
+              <li className='reveal-scale-up' data-reveal-delay='400'>
                 <Image
-                  src={require('./../../assets/images/clients-05.svg')}
-                  alt="Client 05"
+                  src='/images/clients-05.svg'
+                  alt='Client 05'
                   width={113}
-                  height={30} />
+                  height={30}
+                />
               </li>
             </ul>
           </div>

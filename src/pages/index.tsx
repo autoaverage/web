@@ -5,10 +5,11 @@ import FeaturesSplit from '../components/sections/FeaturesSplit';
 import FeaturesTiles from '../components/sections/FeaturesTiles';
 import HeroSplit from '../components/sections/HeroSplit';
 import Pricing from '../components/sections/Pricing';
+import LayoutDefault from '../layouts/LayoutDefault';
 
-class Home extends React.Component {
-  render() {
-    return (
+export default function Home() {
+  return (
+    <LayoutDefault>
       <React.Fragment>
         <HeroSplit imageFill className='illustration-section-01' />
         <Clients topDivider bottomDivider />
@@ -21,8 +22,6 @@ class Home extends React.Component {
         <Pricing hasBgColor topDivider pricingSwitcher />
         <Cta hasBgColor invertColor split className='illustration-element-08' />
       </React.Fragment>
-    );
-  }
+    </LayoutDefault>
+  );
 }
-
-export default Home;

@@ -1,28 +1,26 @@
-import React from 'react';
 import classNames from 'classnames';
+import Link from 'next/link';
+import React from 'react';
 import { SectionProps } from '../../utils/SectionProps';
-import { Link } from 'react-router-dom';
-import SectionHeader from './partials/SectionHeader';
-import Input from '../elements/Input';
 import Button from '../elements/Button';
 import Checkbox from '../elements/Checkbox';
+import Input from '../elements/Input';
+import SectionHeader from './partials/SectionHeader';
 
 const propTypes = {
-  ...SectionProps.types
-}
+  ...SectionProps.types,
+};
 
 const defaultProps = {
-  ...SectionProps.defaults
-}
+  ...SectionProps.defaults,
+};
 
 class LoginForm extends React.Component {
-
   render() {
-
     const {
       className,
       topOuterDivider,
-      bottomOuterDivider,      
+      bottomOuterDivider,
       topDivider,
       bottomDivider,
       hasBgColor,
@@ -48,46 +46,59 @@ class LoginForm extends React.Component {
     };
 
     return (
-      <section
-        {...props}
-        className={outerClasses}
-      >
-        <div className="container">
+      <section {...props} className={outerClasses}>
+        <div className='container'>
           <div className={innerClasses}>
-            <SectionHeader tag="h1" data={sectionHeader} className="center-content" />
-            <div className="tiles-wrap">
-              <div className="tiles-item">
-                <div className="tiles-item-inner">
+            <SectionHeader
+              tag='h1'
+              data={sectionHeader}
+              className='center-content'
+            />
+            <div className='tiles-wrap'>
+              <div className='tiles-item'>
+                <div className='tiles-item-inner'>
                   <form>
                     <fieldset>
-                      <div className="mb-12">
+                      <div className='mb-12'>
                         <Input
-                          type="email"
-                          label="Email"
-                          placeholder="Email"
+                          type='email'
+                          label='Email'
+                          placeholder='Email'
                           labelHidden
-                          required />
+                          required
+                        />
                       </div>
-                      <div className="mb-12">
+                      <div className='mb-12'>
                         <Input
-                          type="password"
-                          label="Password"
-                          placeholder="Password"
+                          type='password'
+                          label='Password'
+                          placeholder='Password'
                           labelHidden
-                          required />
+                          required
+                        />
                       </div>
-                      <div className="mt-24 mb-32">
-                        <Button color="primary" wide>Sign in</Button>
+                      <div className='mt-24 mb-32'>
+                        <Button color='primary' wide>
+                          Sign in
+                        </Button>
                       </div>
-                      <div className="signin-footer mb-32">
+                      <div className='signin-footer mb-32'>
                         <Checkbox>Remember me</Checkbox>
-                        <Link to="/recover-password/" className="func-link text-xs">Forgot password?</Link>
+                        <Link
+                          href='/recover-password'
+                          className='func-link text-xs'
+                        >
+                          Forgot password?
+                        </Link>
                       </div>
                     </fieldset>
                   </form>
-                  <div className="signin-bottom has-top-divider">
-                    <div className="pt-32 text-xs center-content text-color-low">
-                      Don't you have an account? <Link to="/signup/" className="func-link">Sign up</Link>
+                  <div className='signin-bottom has-top-divider'>
+                    <div className='pt-32 text-xs center-content text-color-low'>
+                      Don't you have an account?{' '}
+                      <Link href='/signup' className='func-link'>
+                        Sign up
+                      </Link>
                     </div>
                   </div>
                 </div>
