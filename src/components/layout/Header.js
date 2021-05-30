@@ -118,7 +118,7 @@ class Header extends React.Component {
                   )}
                 >
                   <div className='header-nav-inner'>
-                    <ul
+                    {/* <ul
                       className={classNames(
                         'list-reset text-xxs',
                         navPosition && `header-nav-${navPosition}`
@@ -129,7 +129,7 @@ class Header extends React.Component {
                           Secondary page
                         </Link>
                       </li>
-                    </ul>
+                    </ul> */}
                     {!hideSignin && (
                       <ul className='list-reset header-nav-right'>
                         <li>
