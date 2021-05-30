@@ -1,29 +1,23 @@
-import React from 'react';
-import PropTypes from 'prop-types';
 import classNames from 'classnames';
-import Logo from './partials/Logo';
+import PropTypes from 'prop-types';
+import React from 'react';
 import FooterNav from './partials/FooterNav';
 import FooterSocial from './partials/FooterSocial';
+import Logo from './partials/Logo';
 
 const propTypes = {
   topOuterDivider: PropTypes.bool,
-  topDivider: PropTypes.bool
-}
+  topDivider: PropTypes.bool,
+};
 
 const defaultProps = {
   topOuterDivider: false,
-  topDivider: false
-}
+  topDivider: false,
+};
 
 class Footer extends React.Component {
-
   render() {
-    const {
-      className,
-      topOuterDivider,
-      topDivider,
-      ...props
-    } = this.props;
+    const { className, topOuterDivider, topDivider, ...props } = this.props;
 
     const classes = classNames(
       'site-footer invert-color center-content-mobile',
@@ -32,28 +26,28 @@ class Footer extends React.Component {
     );
 
     return (
-      <footer
-        {...props}
-        className={classes}
-      >
-        <div className="container">
-          <div className={
-            classNames(
+      <footer {...props} className={classes}>
+        <div className='container'>
+          <div
+            className={classNames(
               'site-footer-inner',
               topDivider && 'has-top-divider'
-            )}>
-            <div className="footer-top space-between text-xxs">
+            )}
+          >
+            <div className='footer-top space-between text-xxs'>
               <Logo />
               <FooterSocial />
             </div>
-            <div className="footer-bottom space-between text-xxs invert-order-desktop">
+            <div className='footer-bottom space-between text-xxs invert-order-desktop'>
               <FooterNav />
-              <div className="footer-copyright">&copy; 2020 Frame, all rights reserved</div>
+              <div className='footer-copyright'>
+                &copy; 2021 AutoAverage, all rights reserved
+              </div>
             </div>
           </div>
         </div>
       </footer>
-    )
+    );
   }
 }
 
