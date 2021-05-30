@@ -58,14 +58,14 @@ class HeroSplit extends React.Component {
               <div className='split-item'>
                 <div className='hero-content split-item-content center-content-mobile'>
                   <h1 className='mt-0 mb-16 reveal-from-left'>
-                    Landing template for startups
+                    Cryptocurrency dollar cost averaging
                   </h1>
                   <p
                     className='mt-0 mb-32 reveal-from-left'
                     data-reveal-delay='200'
                   >
-                    Our landing page template works on all devices, so you only
-                    have to set it up once, and get beautiful results forever.
+                    Buy cryptocurrency automatically at regular intervals and
+                    reduce your exposure to volatility
                   </p>
                   <div className='reveal-from-left' data-reveal-delay='400'>
                     <Button
@@ -74,7 +74,7 @@ class HeroSplit extends React.Component {
                       href='https://cruip.com/'
                       wideMobile
                     >
-                      Pricing and plans
+                      Start earning for free
                     </Button>
                   </div>
                 </div>
