@@ -58,6 +58,12 @@ class ContactForm extends React.Component {
               <div className='tiles-item'>
                 <div className='tiles-item-inner'>
                   <form data-netlify='true' name='contact' method='POST'>
+                    <input
+                      type='hidden'
+                      name='form-name'
+                      value='contact'
+                      action='/contact-success'
+                    />
                     <fieldset>
                       <div className='mb-12'>
                         <Input
