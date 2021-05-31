@@ -1,26 +1,25 @@
-import React from 'react';
-import PropTypes from 'prop-types';
 import classNames from 'classnames';
+import PropTypes from 'prop-types';
+import React from 'react';
 import { SectionProps } from '../../utils/SectionProps';
 import Button from '../elements/Button';
 
 const propTypes = {
   ...SectionProps.types,
-  split: PropTypes.bool
-}
+  split: PropTypes.bool,
+};
 
 const defaultProps = {
   ...SectionProps.defaults,
-  split: false
-}
+  split: false,
+};
 
 class Cta extends React.Component {
-
   render() {
     const {
       className,
       topOuterDivider,
-      bottomOuterDivider,      
+      bottomOuterDivider,
       topDivider,
       bottomDivider,
       hasBgColor,
@@ -46,22 +45,17 @@ class Cta extends React.Component {
     );
 
     return (
-      <section
-        {...props}
-        className={outerClasses}
-      >
-        <div className="container">
-          <div
-            className={innerClasses}
-          >
-            <div className="cta-slogan">
-              <h3 className="m-0">
-                For previewing layouts and visual?
+      <section {...props} className={outerClasses}>
+        <div className='container'>
+          <div className={innerClasses}>
+            <div className='cta-slogan'>
+              <h3 className='m-0'>
+                Ready to dollar cost average automatically ?
               </h3>
             </div>
-            <div className="cta-action">
-              <Button tag="a" color="secondary" wideMobile href="#0">
-                Get started now
+            <div className='cta-action'>
+              <Button tag='a' color='secondary' wideMobile href='#0'>
+                Setup a Buy order
               </Button>
             </div>
           </div>
