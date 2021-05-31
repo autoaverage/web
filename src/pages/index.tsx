@@ -1,5 +1,4 @@
 import React from 'react';
-import Clients from '../components/sections/Clients';
 import Cta from '../components/sections/Cta';
 import FeaturesSplit from '../components/sections/FeaturesSplit';
 import FeaturesTiles from '../components/sections/FeaturesTiles';
@@ -12,7 +11,7 @@ export default function Home() {
     <LayoutDefault>
       <React.Fragment>
         <HeroSplit imageFill className='illustration-section-01' />
-        <Clients topDivider bottomDivider />
+        {/* <Clients topDivider bottomDivider /> */}
         <FeaturesSplit
           invertMobile
           imageFill
