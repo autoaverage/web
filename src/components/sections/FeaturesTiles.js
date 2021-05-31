@@ -44,9 +44,9 @@ class FeaturesTiles extends React.Component {
     const tilesClasses = classNames('tiles-wrap', pushLeft && 'push-left');
 
     const sectionHeader = {
-      title: 'Tailor-made features',
+      title: 'Built for Cryptocurrrencies',
       paragraph:
-        'Lorem ipsum is common placeholder text used to demonstrate the graphic elements of a document or visual presentation.',
+        'Dollar cost averaging for crypto currency is domain specific.We build AutoAverage around crypto',
     };
 
     return (
@@ -80,16 +80,16 @@ class FeaturesTiles extends React.Component {
                       data-reveal-container='.tiles-item'
                       data-reveal-delay='100'
                     >
-                      Robust workflow
+                      Security
                     </h4>
                     <p
                       className='m-0 text-sm reveal-from-top'
                       data-reveal-container='.tiles-item'
                       data-reveal-delay='200'
                     >
-                      Duis aute irure dolor in reprehenderit in voluptate velit
-                      esse cillum dolore eu fugiat nulla pariatur. Excepteur
-                      sint occaecat cupidatat.
+                      Funds never leave your exchange. We connect using your api
+                      key, which we encrypt so we never have acces to it. You
+                      can revoke access at any time from your exchange
                     </p>
                   </div>
                 </div>
@@ -117,16 +117,16 @@ class FeaturesTiles extends React.Component {
                       data-reveal-container='.tiles-item'
                       data-reveal-delay='200'
                     >
-                      Robust workflow
+                      Automation
                     </h4>
                     <p
                       className='m-0 text-sm reveal-from-top'
                       data-reveal-container='.tiles-item'
                       data-reveal-delay='300'
                     >
-                      Duis aute irure dolor in reprehenderit in voluptate velit
-                      esse cillum dolore eu fugiat nulla pariatur. Excepteur
-                      sint occaecat cupidatat.
+                      AutoAverage is 100% set and forget. You can choose to
+                      receive notification on each purchase or no notification
+                      at all.
                     </p>
                   </div>
                 </div>
@@ -154,16 +154,16 @@ class FeaturesTiles extends React.Component {
                       data-reveal-container='.tiles-item'
                       data-reveal-delay='300'
                     >
-                      Robust workflow
+                      Robust infrastructure
                     </h4>
                     <p
                       className='m-0 text-sm reveal-from-top'
                       data-reveal-container='.tiles-item'
                       data-reveal-delay='400'
                     >
-                      Duis aute irure dolor in reprehenderit in voluptate velit
-                      esse cillum dolore eu fugiat nulla pariatur. Excepteur
-                      sint occaecat cupidatat.
+                      Each user tasks run under a dedicated environment. This
+                      guarantees the best execution for your orders. Security is
+                      also increased in this isolated environment.
                     </p>
                   </div>
                 </div>
@@ -190,16 +190,15 @@ class FeaturesTiles extends React.Component {
                       data-reveal-container='.tiles-item'
                       data-reveal-delay='100'
                     >
-                      Robust workflow
+                      No hidden fees
                     </h4>
                     <p
                       className='m-0 text-sm reveal-from-top'
                       data-reveal-container='.tiles-item'
                       data-reveal-delay='200'
                     >
-                      Duis aute irure dolor in reprehenderit in voluptate velit
-                      esse cillum dolore eu fugiat nulla pariatur. Excepteur
-                      sint occaecat cupidatat.
+                      We do not have any hidden fees and our pricing does not
+                      fluctuate with market conditions.
                     </p>
                   </div>
                 </div>
@@ -227,16 +226,15 @@ class FeaturesTiles extends React.Component {
                       data-reveal-container='.tiles-item'
                       data-reveal-delay='200'
                     >
-                      Robust workflow
+                      Open Source
                     </h4>
                     <p
                       className='m-0 text-sm reveal-from-top'
                       data-reveal-container='.tiles-item'
                       data-reveal-delay='300'
                     >
-                      Duis aute irure dolor in reprehenderit in voluptate velit
-                      esse cillum dolore eu fugiat nulla pariatur. Excepteur
-                      sint occaecat cupidatat.
+                      The code we use to run our service is publicly available
+                      on Github. You can use it directly if you choose to.
                     </p>
                   </div>
                 </div>
@@ -264,16 +262,15 @@ class FeaturesTiles extends React.Component {
                       data-reveal-container='.tiles-item'
                       data-reveal-delay='300'
                     >
-                      Robust workflow
+                      Built by Crypto investors
                     </h4>
                     <p
                       className='m-0 text-sm reveal-from-top'
                       data-reveal-container='.tiles-item'
                       data-reveal-delay='400'
                     >
-                      Duis aute irure dolor in reprehenderit in voluptate velit
-                      esse cillum dolore eu fugiat nulla pariatur. Excepteur
-                      sint occaecat cupidatat.
+                      As founders, we are involved in Cryptocurrrencies
+                      ourselves and we needed this service. So we created it.
                     </p>
                   </div>
                 </div>
