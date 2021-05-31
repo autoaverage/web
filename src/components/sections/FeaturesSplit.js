@@ -77,12 +77,13 @@ class FeaturesSplit extends React.Component {
             <div className={splitClasses}>
               <div className='split-item reveal-from-top'>
                 <div className='split-item-content center-content-mobile'>
-                  <h3 className='mt-0 mb-16'>Data-driven insights</h3>
+                  <h3 className='mt-0 mb-16'>Reduce your risk</h3>
                   <p className='m-0'>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua — Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    Crypto dollar cost averaging reduces the risk involved in
+                    investing in a volatile market such as cryptocurrency.
+                    <br />
+                    DCA leads you to buy less at a peak price, and more at a low
+                    price, which reduces your exposure to price fluctuations.
                   </p>
                 </div>
                 <div
@@ -110,12 +111,14 @@ class FeaturesSplit extends React.Component {
 
               <div className='split-item reveal-from-top'>
                 <div className='split-item-content center-content-mobile'>
-                  <h3 className='mt-0 mb-16'>Data-driven insights</h3>
+                  <h3 className='mt-0 mb-16'>Buy the dips</h3>
                   <p className='m-0'>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua — Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    AutoAverage allows you to automatically buy the dips. It's
+                    in our nature to be risk adverse. Whenever it's all red,
+                    most people tend to stay away from the market, or worse,
+                    sell their holdings. Having a strategy that always buys on
+                    your behalf, whatever the market is doing that day, is a
+                    great way to not let emotions control your decisions.
                   </p>
                 </div>
                 <div
