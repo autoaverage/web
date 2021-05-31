@@ -17,9 +17,6 @@
     "start": "next start -p 8081",
     "export": "next build && next export"
   },
-  "eslintConfig": {
-    "extends": "react-app"
-  },
   "browserslist": {
     "production": [
       ">0.2%",
