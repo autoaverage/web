@@ -16,7 +16,7 @@ export default function Home() {
         className='illustration-section-03'
       />
       <FeaturesTiles className='gradient-section' />
-      <Pricing hasBgColor topDivider pricingSwitcher />
+      <Pricing hasBgColor topDivider />
       <Cta hasBgColor invertColor split className='illustration-element-08' />
     </LayoutDefault>
   );

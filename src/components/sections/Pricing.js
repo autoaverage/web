@@ -27,16 +27,16 @@ class Pricing extends React.Component {
     },
     priceOutput: {
       plan1: {
-        0: ['$', '35', '/m'],
-        1: ['$', '27', '/m'],
+        0: ['$', '20', '/ 1 month'],
+        1: ['$', '20', '/ 1 month'],
       },
       plan2: {
-        0: ['$', '55', '/m'],
-        1: ['$', '47', '/m'],
+        0: ['$', '50', '/ 3 months'],
+        1: ['$', '50', '/ 3 months'],
       },
       plan3: {
-        0: ['$', '75', '/m'],
-        1: ['$', '57', '/m'],
+        0: ['$', '100', '/ 1 year'],
+        1: ['$', '100', '/ 1 year'],
       },
     },
   };
@@ -121,9 +121,9 @@ class Pricing extends React.Component {
     );
 
     const sectionHeader = {
-      title: 'Simple pricing',
+      title: 'Pricing',
       paragraph:
-        'Lorem ipsum is common placeholder text used to demonstrate the graphic elements of a document or visual presentation.',
+        'Choose a plan that suits your needs to go further than our free demo and support the project',
     };
 
     return (
@@ -181,9 +181,7 @@ class Pricing extends React.Component {
                           {this.getPricingData(this.state.priceOutput.plan1, 2)}
                         </span>
                       </div>
-                      <div className='text-color-low text-xs'>
-                        Lorem ipsum is a common text
-                      </div>
+                      <div className='text-color-low text-xs'>Discovery</div>
                     </div>
                     <div className='pricing-item-features mb-40'>
                       <div className='pricing-item-features-title text-xs text-color-high mb-24'>
@@ -191,16 +189,12 @@ class Pricing extends React.Component {
                       </div>
                       <ul className='pricing-item-features-list list-reset text-xs mb-32'>
                         <li className='is-checked'>
-                          Excepteur sint occaecat velit
+                          Create buy and sell orders
                         </li>
-                        <li className='is-checked'>
-                          Excepteur sint occaecat velit
-                        </li>
-                        <li className='is-checked'>
-                          Excepteur sint occaecat velit
-                        </li>
-                        <li>Excepteur sint occaecat velit</li>
-                        <li>Excepteur sint occaecat velit</li>
+                        <li className='is-checked'>24/7 support</li>
+                        <li className='is-checked'>Up to 10 tasks</li>
+                        <li className='is-checked'>Up to 100 orders/month</li>
+                        <li>Lower than daily intervals</li>
                       </ul>
                     </div>
                   </div>
@@ -209,9 +203,9 @@ class Pricing extends React.Component {
                       tag='a'
                       color='primary'
                       wide
-                      href='http://cruip.com/'
+                      href='https://app.autoaverage.com/signup'
                     >
-                      Start free trial
+                      Start free demo
                     </Button>
                   </div>
                 </div>
@@ -232,9 +226,7 @@ class Pricing extends React.Component {
                           {this.getPricingData(this.state.priceOutput.plan2, 2)}
                         </span>
                       </div>
-                      <div className='text-color-low text-xs'>
-                        Lorem ipsum is a common text
-                      </div>
+                      <div className='text-color-low text-xs'>Enthusiast</div>
                     </div>
                     <div className='pricing-item-features mb-40'>
                       <div className='pricing-item-features-title text-xs text-color-high mb-24'>
@@ -242,18 +234,14 @@ class Pricing extends React.Component {
                       </div>
                       <ul className='pricing-item-features-list list-reset text-xs mb-32'>
                         <li className='is-checked'>
-                          Excepteur sint occaecat velit
+                          Create buy and sell orders
                         </li>
+                        <li className='is-checked'>24/7 support</li>
+                        <li className='is-checked'>Up to 10 tasks</li>
+                        <li className='is-checked'>Up to 100 orders/month</li>
                         <li className='is-checked'>
-                          Excepteur sint occaecat velit
+                          Lower than daily intervals
                         </li>
-                        <li className='is-checked'>
-                          Excepteur sint occaecat velit
-                        </li>
-                        <li className='is-checked'>
-                          Excepteur sint occaecat velit
-                        </li>
-                        <li>Excepteur sint occaecat velit</li>
                       </ul>
                     </div>
                   </div>
@@ -262,9 +250,9 @@ class Pricing extends React.Component {
                       tag='a'
                       color='primary'
                       wide
-                      href='http://cruip.com/'
+                      href='https://app.autoaverage.com/signup'
                     >
-                      Start free trial
+                      Start free demo
                     </Button>
                   </div>
                 </div>
@@ -288,9 +276,7 @@ class Pricing extends React.Component {
                           {this.getPricingData(this.state.priceOutput.plan3, 2)}
                         </span>
                       </div>
-                      <div className='text-color-low text-xs'>
-                        Lorem ipsum is a common text
-                      </div>
+                      <div className='text-color-low text-xs'>Investor</div>
                     </div>
                     <div className='pricing-item-features mb-40'>
                       <div className='pricing-item-features-title text-xs text-color-high mb-24'>
@@ -298,19 +284,13 @@ class Pricing extends React.Component {
                       </div>
                       <ul className='pricing-item-features-list list-reset text-xs mb-32'>
                         <li className='is-checked'>
-                          Excepteur sint occaecat velit
+                          Create buy and sell orders
                         </li>
+                        <li className='is-checked'>24/7 support</li>
+                        <li className='is-checked'>Up to 10 tasks</li>
+                        <li className='is-checked'>Up to 100 orders/month</li>
                         <li className='is-checked'>
-                          Excepteur sint occaecat velit
-                        </li>
-                        <li className='is-checked'>
-                          Excepteur sint occaecat velit
-                        </li>
-                        <li className='is-checked'>
-                          Excepteur sint occaecat velit
-                        </li>
-                        <li className='is-checked'>
-                          Excepteur sint occaecat velit
+                          Lower than daily intervals
                         </li>
                       </ul>
                     </div>
@@ -320,9 +300,9 @@ class Pricing extends React.Component {
                       tag='a'
                       color='primary'
                       wide
-                      href='http://cruip.com/'
+                      href='https://app.autoaverage.com/signup'
                     >
-                      Start free trial
+                      Start free demo
                     </Button>
                   </div>
                 </div>
