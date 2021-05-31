@@ -69,6 +69,7 @@ class ContactForm extends React.Component {
                         <Input
                           label='Full name'
                           placeholder='Full name'
+                          name='name'
                           labelHidden
                           required
                         />
@@ -77,6 +78,7 @@ class ContactForm extends React.Component {
                         <Input
                           type='email'
                           label='Email'
+                          name='email'
                           placeholder='Email'
                           labelHidden
                           required
@@ -86,6 +88,7 @@ class ContactForm extends React.Component {
                         <Input
                           type='textarea'
                           label='Message'
+                          name='message'
                           placeholder='Please type your message here'
                           labelHidden
                           rows='5'
