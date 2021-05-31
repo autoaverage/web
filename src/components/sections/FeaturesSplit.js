@@ -98,18 +98,11 @@ class FeaturesSplit extends React.Component {
                 >
                   <Image
                     src={require('./../../assets/images/features-split-image.svg')}
+                    src='/images/undraw_statistic_chart_38b6.png'
                     alt='Features split 01'
                     width={528}
                     height={396}
                   />
-                  <div style={img01Style}>
-                    <Image
-                      src={require('./../../assets/images/features-split-top-01.png')}
-                      alt='Features split top 01'
-                      width={738}
-                      height={570}
-                    />
-                  </div>
                 </div>
               </div>
 
@@ -132,19 +125,12 @@ class FeaturesSplit extends React.Component {
                   )}
                 >
                   <Image
-                    src={require('./../../assets/images/features-split-image.svg')}
-                    alt='Features split 02'
-                    width={528}
-                    height={396}
+                    // src={require('./../../assets/images/features-split-top-02.png')}
+                    src='/images/undraw_Investing_re_bov7.png'
+                    alt='Features split top 02'
+                    width={744}
+                    height={512}
                   />
-                  <div style={img02Style}>
-                    <Image
-                      src={require('./../../assets/images/features-split-top-02.png')}
-                      alt='Features split top 02'
-                      width={744}
-                      height={512}
-                    />
-                  </div>
                 </div>
               </div>
 
@@ -167,19 +153,12 @@ class FeaturesSplit extends React.Component {
                   )}
                 >
                   <Image
-                    src={require('./../../assets/images/features-split-image.svg')}
-                    alt='Features split 03'
-                    width={528}
-                    height={396}
+                    // src={require('./../../assets/images/features-split-top-03.png')}
+                    src='/images/undraw_switches_1js3.png'
+                    alt='Features split top 03'
+                    width={747}
+                    height={570}
                   />
-                  <div style={img03Style}>
-                    <Image
-                      src={require('./../../assets/images/features-split-top-03.png')}
-                      alt='Features split top 03'
-                      width={747}
-                      height={570}
-                    />
-                  </div>
                 </div>
               </div>
 
@@ -200,19 +179,11 @@ class FeaturesSplit extends React.Component {
                   )}
                 >
                   <Image
-                    src={require('./../../assets/images/features-split-image.svg')}
-                    alt='Features split 02'
-                    width={528}
-                    height={396}
+                    src='/images/undraw_yoga_248n.png'
+                    alt='Features split top 02'
+                    width={744}
+                    height={512}
                   />
-                  <div style={img02Style}>
-                    <Image
-                      src={require('./../../assets/images/features-split-top-02.png')}
-                      alt='Features split top 02'
-                      width={744}
-                      height={512}
-                    />
-                  </div>
                 </div>
               </div>
             </div>
