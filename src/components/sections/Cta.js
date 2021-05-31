@@ -54,7 +54,12 @@ class Cta extends React.Component {
               </h3>
             </div>
             <div className='cta-action'>
-              <Button tag='a' color='secondary' wideMobile href='#0'>
+              <Button
+                tag='a'
+                color='secondary'
+                wideMobile
+                href='https://app.autoaverage.com/signup'
+              >
                 Setup a Buy order
               </Button>
             </div>
