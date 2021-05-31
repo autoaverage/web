@@ -118,7 +118,7 @@ class FeaturesSplit extends React.Component {
                     most people tend to stay away from the market, or worse,
                     sell their holdings. Having a strategy that always buys on
                     your behalf, whatever the market is doing that day, is a
-                    great way to not let emotions control your decisions.
+                    great way to not let emotions get involved.
                   </p>
                 </div>
                 <div
@@ -172,6 +172,41 @@ class FeaturesSplit extends React.Component {
                       alt='Features split top 03'
                       width={747}
                       height={570}
+                    />
+                  </div>
+                </div>
+              </div>
+
+              <div className='split-item reveal-from-top'>
+                <div className='split-item-content center-content-mobile'>
+                  <h3 className='mt-0 mb-16'>Buy the dips</h3>
+                  <p className='m-0'>
+                    AutoAverage allows you to automatically buy the dips. It's
+                    in our nature to be risk adverse. Whenever it's all red,
+                    most people tend to stay away from the market, or worse,
+                    sell their holdings. Having a strategy that always buys on
+                    your behalf, whatever the market is doing that day, is a
+                    great way to not let emotions get involved.
+                  </p>
+                </div>
+                <div
+                  className={classNames(
+                    'split-item-image center-content-mobile illustration-element-04',
+                    imageFill && 'split-item-image-fill'
+                  )}
+                >
+                  <Image
+                    src={require('./../../assets/images/features-split-image.svg')}
+                    alt='Features split 02'
+                    width={528}
+                    height={396}
+                  />
+                  <div style={img02Style}>
+                    <Image
+                      src={require('./../../assets/images/features-split-top-02.png')}
+                      alt='Features split top 02'
+                      width={744}
+                      height={512}
                     />
                   </div>
                 </div>
