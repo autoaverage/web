@@ -1,5 +1,4 @@
 import classNames from 'classnames';
-import Link from 'next/link';
 import React from 'react';
 import { SectionProps } from '../../utils/SectionProps';
 import Button from '../elements/Button';
@@ -14,7 +13,7 @@ const defaultProps = {
   ...SectionProps.defaults,
 };
 
-class SignupForm extends React.Component {
+class ContactForm extends React.Component {
   render() {
     const {
       className,
@@ -43,7 +42,7 @@ class SignupForm extends React.Component {
     );
 
     const sectionHeader = {
-      title: 'Welcome. We exist to make entrepreneurship easier.',
+      title: 'What would you like to tell us ?',
     };
 
     return (
@@ -58,7 +57,7 @@ class SignupForm extends React.Component {
             <div className='tiles-wrap'>
               <div className='tiles-item'>
                 <div className='tiles-item-inner'>
-                  <form>
+                  <form netlify name='contact' method='POST'>
                     <fieldset>
                       <div className='mb-12'>
                         <Input
@@ -79,28 +78,21 @@ class SignupForm extends React.Component {
                       </div>
                       <div className='mb-12'>
                         <Input
-                          type='password'
-                          label='Password'
-                          placeholder='Password'
+                          type='textarea'
+                          label='Message'
+                          placeholder='Please type your message here'
                           labelHidden
+                          rows='5'
                           required
                         />
                       </div>
                       <div className='mt-24 mb-32'>
                         <Button color='primary' wide>
-                          Sign up
+                          Send message
                         </Button>
                       </div>
                     </fieldset>
                   </form>
-                  <div className='signin-bottom has-top-divider'>
-                    <div className='pt-32 text-xs center-content text-color-low'>
-                      Already have an account?{' '}
-                      <Link href='/login' className='func-link'>
-                        Login
-                      </Link>
-                    </div>
-                  </div>
                 </div>
               </div>
             </div>
@@ -111,7 +103,7 @@ class SignupForm extends React.Component {
   }
 }
 
-SignupForm.propTypes = propTypes;
-SignupForm.defaultProps = defaultProps;
+ContactForm.propTypes = propTypes;
+ContactForm.defaultProps = defaultProps;
 
-export default SignupForm;
+export default ContactForm;
