@@ -42,7 +42,7 @@ class ContactSuccess extends React.Component {
     );
 
     const sectionHeader = {
-      title: 'Thanks for your enquiry !',
+      title: 'Thanks for your inquiry !',
     };
 
     return (
