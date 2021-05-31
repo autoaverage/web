@@ -146,12 +146,14 @@ class FeaturesSplit extends React.Component {
 
               <div className='split-item reveal-from-top'>
                 <div className='split-item-content center-content-mobile'>
-                  <h3 className='mt-0 mb-16'>Data-driven insights</h3>
+                  <h3 className='mt-0 mb-16'>You're in charge</h3>
                   <p className='m-0'>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua — Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    We do not hold your assets. You do.
+                    <br />
+                    Funds are secure on your exchange, we only execute orders on
+                    your behalf. We do not have the permission to transfer from
+                    your account. Our code is also open source. Just revoke your
+                    API keys and we're out.
                   </p>
                 </div>
                 <div
@@ -179,14 +181,12 @@ class FeaturesSplit extends React.Component {
 
               <div className='split-item reveal-from-top'>
                 <div className='split-item-content center-content-mobile'>
-                  <h3 className='mt-0 mb-16'>Buy the dips</h3>
+                  <h3 className='mt-0 mb-16'>Investing on autopilot</h3>
                   <p className='m-0'>
-                    AutoAverage allows you to automatically buy the dips. It's
-                    in our nature to be risk adverse. Whenever it's all red,
-                    most people tend to stay away from the market, or worse,
-                    sell their holdings. Having a strategy that always buys on
-                    your behalf, whatever the market is doing that day, is a
-                    great way to not let emotions get involved.
+                    Cryto dollar cost averaging is 100% automatic with
+                    AutoAverage. You set your purchase amount, the frequency,
+                    and we take care of the rest. Letting you know how it's
+                    going if you so choose.
                   </p>
                 </div>
                 <div
