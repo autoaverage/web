@@ -81,7 +81,7 @@ class HeroSplit extends React.Component {
                 <div className='hero-figure is-3d split-item-image illustration-element-01 reveal-from-right'>
                   <img
                     className='has-shadow'
-                    src='/images/hero-image.svg'
+                    src='/images/screenshot.png'
                     alt='Hero'
                     width={528}
                     height={396}
