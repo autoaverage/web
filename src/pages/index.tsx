@@ -9,18 +9,15 @@ import LayoutDefault from '../layouts/LayoutDefault';
 export default function Home() {
   return (
     <LayoutDefault>
-      <React.Fragment>
-        <HeroSplit imageFill className='illustration-section-01' />
-        {/* <Clients topDivider bottomDivider /> */}
-        <FeaturesSplit
-          invertMobile
-          imageFill
-          className='illustration-section-03'
-        />
-        <FeaturesTiles className='gradient-section' />
-        <Pricing hasBgColor topDivider pricingSwitcher />
-        <Cta hasBgColor invertColor split className='illustration-element-08' />
-      </React.Fragment>
+      <HeroSplit imageFill className='illustration-section-01' />
+      <FeaturesSplit
+        invertMobile
+        imageFill
+        className='illustration-section-03'
+      />
+      <FeaturesTiles className='gradient-section' />
+      <Pricing hasBgColor topDivider pricingSwitcher />
+      <Cta hasBgColor invertColor split className='illustration-element-08' />
     </LayoutDefault>
   );
 }

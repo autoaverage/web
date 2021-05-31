@@ -100,7 +100,7 @@ class Header extends React.Component {
             <Logo />
             {!hideNav && (
               <React.Fragment>
-                <button
+                <Button
                   ref={this.hamburger}
                   className='header-nav-toggle'
                   onClick={this.state.isActive ? this.closeMenu : this.openMenu}
@@ -109,7 +109,7 @@ class Header extends React.Component {
                   <span className='hamburger'>
                     <span className='hamburger-inner'></span>
                   </span>
-                </button>
+                </Button>
                 <nav
                   ref={this.nav}
                   className={classNames(

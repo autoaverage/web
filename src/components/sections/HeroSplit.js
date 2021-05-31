@@ -51,7 +51,11 @@ class HeroSplit extends React.Component {
     );
 
     return (
-      <section {...props} className={outerClasses}>
+      <section
+        {...props}
+        className={outerClasses}
+        style={{ overflow: 'hidden' }}
+      >
         <div className='container'>
           <div className={innerClasses}>
             <div className={splitClasses}>

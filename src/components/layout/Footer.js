@@ -26,7 +26,7 @@ class Footer extends React.Component {
     );
 
     return (
-      <footer {...props} className={classes}>
+      <footer {...props} className={classes} style={{ overflow: 'hidden' }}>
         <div className='container'>
           <div
             className={classNames(
