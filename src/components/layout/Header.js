@@ -118,23 +118,26 @@ class Header extends React.Component {
                   )}
                 >
                   <div className='header-nav-inner'>
-                    {/* <ul
+                    <ul
                       className={classNames(
                         'list-reset text-xxs',
                         navPosition && `header-nav-${navPosition}`
                       )}
                     >
                       <li>
-                        <Link href='/secondary/' onClick={this.closeMenu}>
-                          Secondary page
+                        <Link
+                          href='https://app.autoaverage.com/login'
+                          onClick={this.closeMenu}
+                        >
+                          Sign In
                         </Link>
                       </li>
-                    </ul> */}
+                    </ul>
                     {!hideSignin && (
                       <ul className='list-reset header-nav-right'>
                         <li>
                           <Link
-                            href='/signup'
+                            href='https://app.autoaverage.com/signup'
                             className='button button-primary button-wide-mobile button-sm'
                             onClick={this.closeMenu}
                           >

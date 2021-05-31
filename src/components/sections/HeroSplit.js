@@ -75,7 +75,7 @@ class HeroSplit extends React.Component {
                     <Button
                       tag='a'
                       color='primary'
-                      href='https://app.autoaverage.com'
+                      href='https://app.autoaverage.com/signup'
                       wideMobile
                     >
                       Setup a buy order
