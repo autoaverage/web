@@ -57,7 +57,7 @@ class ContactForm extends React.Component {
             <div className='tiles-wrap'>
               <div className='tiles-item'>
                 <div className='tiles-item-inner'>
-                  <form netlify name='contact' method='POST'>
+                  <form data-netlify='true' name='contact' method='POST'>
                     <fieldset>
                       <div className='mb-12'>
                         <Input
