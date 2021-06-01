@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React from 'react';
 import Accordion from '../components/elements/Accordion';
 import AccordionItem from '../components/elements/AccordionItem';
@@ -54,6 +55,11 @@ class Secondary extends React.Component {
                 <AccordionItem title='Is my exchange supported ?'>
                   We currently support Binance. We plan on releasing support for
                   other major exchanges soon.
+                </AccordionItem>
+                <AccordionItem title='Why are my tasks stopping ?'>
+                  A task will stop automatically if it reports an error 3 times.
+                  Check your balance on the quote asset or please
+                  <Link href='/contact'> contact us</Link>
                 </AccordionItem>
                 {/* <AccordionItem title='Nisi porta lorem mollis aliquam ut.'>
                   Lorem ipsum is placeholder text commonly used in the graphic,
