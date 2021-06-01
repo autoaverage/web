@@ -97,8 +97,8 @@ class FeaturesSplit extends React.Component {
                   )}
                 >
                   <Image
-                    src={require('./../../assets/images/features-split-image.svg')}
-                    src='/images/undraw_statistic_chart_38b6.png'
+                    // src={require('./../../assets/images/features-split-image.svg')}
+                    src='/images/undraw_statistic_chart_38b6.webp'
                     alt='Features split 01'
                     width={528}
                     height={396}
@@ -126,7 +126,7 @@ class FeaturesSplit extends React.Component {
                 >
                   <Image
                     // src={require('./../../assets/images/features-split-top-02.png')}
-                    src='/images/undraw_Investing_re_bov7.png'
+                    src='/images/undraw_Investing_re_bov7.webp'
                     alt='Features split top 02'
                     width={744}
                     height={512}
@@ -154,7 +154,7 @@ class FeaturesSplit extends React.Component {
                 >
                   <Image
                     // src={require('./../../assets/images/features-split-top-03.png')}
-                    src='/images/undraw_switches_1js3.png'
+                    src='/images/undraw_switches_1js3.webp'
                     alt='Features split top 03'
                     width={747}
                     height={570}
@@ -179,7 +179,7 @@ class FeaturesSplit extends React.Component {
                   )}
                 >
                   <Image
-                    src='/images/undraw_yoga_248n.png'
+                    src='/images/undraw_yoga_248n.webp'
                     alt='Features split top 02'
                     width={744}
                     height={512}
