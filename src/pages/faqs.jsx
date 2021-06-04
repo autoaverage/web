@@ -1,3 +1,4 @@
+import Head from 'next/head';
 import Link from 'next/link';
 import React from 'react';
 import Accordion from '../components/elements/Accordion';
@@ -30,6 +31,14 @@ class Secondary extends React.Component {
 
     return (
       <LayoutAlternative>
+        <Head>
+          <title>Faqs - Cryptocurrency dollar cost averaging</title>
+          <meta
+            name='description'
+            key='description'
+            content='Cryptocurrency dollar cost averaging faq. You can find the answer for any question you may have'
+          />
+        </Head>
         <React.Fragment>
           <GenericSection className='illustration-section-01'>
             <div className='container-xs'>

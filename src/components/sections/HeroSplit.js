@@ -89,6 +89,8 @@ class HeroSplit extends React.Component {
                     alt='Hero'
                     width={528}
                     height={396}
+                    title='Software screenshot'
+                    alt='Screenshot of cryptocurrency dollar cost averaging software'
                   />
                 </div>
               </div>

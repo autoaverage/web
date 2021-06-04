@@ -68,9 +68,10 @@ class FeaturesTiles extends React.Component {
                     >
                       <Image
                         src={require('./../../assets/images/feature-tile-icon-01.svg')}
-                        alt='Features tile icon 01'
                         width={72}
                         height={72}
+                        title='Security illustration'
+                        alt='An illustration that inspires security'
                       />
                     </div>
                   </div>
@@ -105,9 +106,10 @@ class FeaturesTiles extends React.Component {
                     >
                       <Image
                         src={require('./../../assets/images/feature-tile-icon-02.svg')}
-                        alt='Features tile icon 02'
                         width={72}
                         height={72}
+                        title='Automation illustration'
+                        alt='An illustration that demonstrates automation'
                       />
                     </div>
                   </div>
@@ -142,9 +144,10 @@ class FeaturesTiles extends React.Component {
                     >
                       <Image
                         src={require('./../../assets/images/feature-tile-icon-03.svg')}
-                        alt='Features tile icon 03'
                         width={72}
                         height={72}
+                        title='Robust infrastructure illustration'
+                        alt='An illustration that demonstrates a robust infrastructure'
                       />
                     </div>
                   </div>
@@ -178,9 +181,10 @@ class FeaturesTiles extends React.Component {
                     >
                       <Image
                         src={require('./../../assets/images/feature-tile-icon-04.svg')}
-                        alt='Features tile icon 04'
                         width={72}
                         height={72}
+                        title='No hiddens feeds illustration'
+                        alt='No hidden fees image'
                       />
                     </div>
                   </div>
@@ -214,9 +218,10 @@ class FeaturesTiles extends React.Component {
                     >
                       <Image
                         src={require('./../../assets/images/feature-tile-icon-05.svg')}
-                        alt='Features tile icon 05'
                         width={72}
                         height={72}
+                        title='Open source illustration'
+                        alt='A picto that demonstrates that the software is open source'
                       />
                     </div>
                   </div>
@@ -250,9 +255,10 @@ class FeaturesTiles extends React.Component {
                     >
                       <Image
                         src={require('./../../assets/images/feature-tile-icon-06.svg')}
-                        alt='Features tile icon 06'
                         width={72}
                         height={72}
+                        title='Built by Crypto investors illustration'
+                        alt='A pictogram that shows that this software is build by crypto investors'
                       />
                     </div>
                   </div>

@@ -7,11 +7,16 @@ const Logo = ({ className, ...props }) => {
 
   return (
     <div {...props} className={classes}>
-      <h1 className='m-0'>
-        <Link href='/'>
-          <img src='/images/logo.svg' alt='Frame' width={150} height={40} />
-        </Link>
-      </h1>
+      <Link href='/'>
+        <img
+          src='/images/logo.svg'
+          alt='Frame'
+          width={150}
+          height={40}
+          title='Cryptocurrency dollar cost averaging logo'
+          alt='Logo of cryptocurrency dollar cost averaging software'
+        />
+      </Link>
     </div>
   );
 };

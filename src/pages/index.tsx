@@ -1,3 +1,4 @@
+import Head from 'next/head';
 import React from 'react';
 import Cta from '../components/sections/Cta';
 import FeaturesSplit from '../components/sections/FeaturesSplit';
@@ -9,6 +10,9 @@ import LayoutDefault from '../layouts/LayoutDefault';
 export default function Home() {
   return (
     <LayoutDefault>
+      <Head>
+        <title>Cryptocurrency dollar cost averaging - DCA trading bot</title>
+      </Head>
       <HeroSplit imageFill className='illustration-section-01' />
       <FeaturesSplit
         invertMobile
