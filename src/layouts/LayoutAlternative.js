@@ -1,3 +1,4 @@
+import Head from 'next/head';
 import React from 'react';
 import Footer from '../components/layout/Footer02';
 import Header from '../components/layout/Header';
