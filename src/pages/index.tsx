@@ -4,7 +4,6 @@ import Cta from '../components/sections/Cta';
 import FeaturesSplit from '../components/sections/FeaturesSplit';
 import FeaturesTiles from '../components/sections/FeaturesTiles';
 import HeroSplit from '../components/sections/HeroSplit';
-import Pricing from '../components/sections/Pricing';
 import LayoutDefault from '../layouts/LayoutDefault';
 
 export default function Home() {
@@ -20,7 +19,7 @@ export default function Home() {
         className='illustration-section-03'
       />
       <FeaturesTiles className='gradient-section' />
-      <Pricing hasBgColor topDivider />
+      {/* <Pricing hasBgColor topDivider /> */}
       <Cta hasBgColor invertColor split className='illustration-element-08' />
     </LayoutDefault>
   );
